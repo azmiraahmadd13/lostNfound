@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+body:before{
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(http://ftmk.utem.edu.my/web/wp-content/uploads/2018/07/ftmk-1.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	filter: 
+}
+.avatar{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(-80px/2);
+	left: calc(50% - 50px);
+}
+
+/*login*/ 
+.contact-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	width: 400px;
+	height: 500px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.contact-form h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact-form p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.contact-form input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.contact-form input[type=id],
+.contact-form input[type=password],
+.contact-form input[type=text]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #fff;
+	font-size: 15px;
+}
+.contact-form input[type=submit]{
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 15%;
+}
+.psw a{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 20px;
+}
+.register a{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 20px;
+}
+
+/*register*/
+.register-form input[type=id],
+.register-form input[type=password],
+.register-form input[type=text]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #fff;
+	font-size: 15px;
+}
+.register-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	width: 400px;
+    height: 615px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.8);
+
+}
+.register-form input{
+	width: 100%;
+	margin-bottom: 20px;	
+}
+.register-form h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.register-form p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.register-form input[type=submit]{
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 15%;
+}
