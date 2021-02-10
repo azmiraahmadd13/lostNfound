@@ -1,0 +1,67 @@
+body{
+	
+	background: url( "../img/BACK.jpg") no-repeat  fixed center;
+	margin: 0px;
+	
+}
+#secimg{
+	margin-left:28%;
+	margin-top:10%;
+	height:250px;
+	width:655px;
+	background-color:rgba(255,255,255, 0.7);
+	border-radius: 1%;
+}
+.btnRound{
+	
+	margin-top:3%;
+	margin-left:2.5%;
+	width:100px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	font-size:50px;
+	border-radius:50%;
+	display: inline-block;
+	
+}
+.btnRound a{
+	
+	color:black;
+	text-decoration: none;
+}
+.add{
+	background:white;
+	margin-left:32%;
+}
+.add:hover{
+	background-color:#d8d8d8;
+	box-shadow: 3px 3px  white;
+	
+}
+.permit{
+	background:white;
+}
+.permit:hover{
+	background-color:#d8d8d8;
+	box-shadow: 3px 3px  white;
+	
+}
+.report{
+	background:white;
+	
+}
+.report:hover{
+	background-color:#d8d8d8;
+	box-shadow: 3px 3px  white;
+	
+}
+.stat{
+	background:white;
+}
+.stat:hover{
+	background-color:#d8d8d8;
+	box-shadow: 3px 3px  white;
+	
+}
+
